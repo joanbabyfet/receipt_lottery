@@ -14,6 +14,7 @@ def main():
 
     while True: # 实现一直输入号码并对奖
         try:
+            # 对奖程序
             number = input('请输入发票号码:')
 
             if number == prize_s: 
